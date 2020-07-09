@@ -3,20 +3,20 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Uses parent pkg recipe to download latest Skype and import it into the JSS.</string>
+    <string>Uses parent pkg recipe to download latest Google Chrome and import it into the JSS.</string>
     <key>Identifier</key>
-    <string>com.epsne.jss-upload.GoogleChrome/string>
+    <string>com.epstech.jss-upload.GoogleChrome</string>
     <key>Input</key>
     <dict>
         <key>CATEGORY</key>
         <string>Applications</string>
         <key>NAME</key>
-        <string>Google Chrome</string>
+        <string>GoogleChrome</string>
     </dict>
     <key>MinimumVersion</key>
     <string>0.2.0</string>
     <key>ParentRecipe</key>
-    <string>com.github.autopkg.pkg.googlechrome</string>
+    <string>com.github.autopkg.pkg.GoogleChrome</string>
     <key>Process</key>
     <array>
         <dict>
